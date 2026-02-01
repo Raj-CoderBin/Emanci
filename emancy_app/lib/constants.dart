@@ -194,7 +194,13 @@ var despesas = Expanded(
         children: [
           Align(
             alignment: Alignment.centerLeft,
-            child: Text('Despesas', style: TextStyle(color: Colors.grey[400])),
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                'Despesas',
+                style: TextStyle(color: Colors.grey[400]),
+              ),
+            ),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
