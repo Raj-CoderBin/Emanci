@@ -91,9 +91,12 @@ var sadoAtual = Expanded(
         children: [
           Align(
             alignment: Alignment.centerLeft,
-            child: Text(
-              'Saldo Atual',
-              style: TextStyle(color: Colors.grey[400]),
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                'Saldo Atual',
+                style: TextStyle(color: Colors.grey[400]),
+              ),
             ),
           ),
           Row(
@@ -129,9 +132,12 @@ var cartaoDeCredito = Expanded(
         children: [
           Align(
             alignment: Alignment.centerLeft,
-            child: Text(
-              'Cartão de Crédito',
-              style: TextStyle(color: Colors.grey[400]),
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                'Cartão de Crédito',
+                style: TextStyle(color: Colors.grey[400]),
+              ),
             ),
           ),
           Row(
@@ -163,7 +169,13 @@ var receita = Expanded(
         children: [
           Align(
             alignment: Alignment.centerLeft,
-            child: Text('Receitas', style: TextStyle(color: Colors.grey[400])),
+            child: TextButton(
+              onPressed: () {},
+              child: Text(
+                'Receitas',
+                style: TextStyle(color: Colors.grey[400]),
+              ),
+            ),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
