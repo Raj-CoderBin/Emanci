@@ -18,6 +18,7 @@ class _DashboardDesktopState extends State<DashboardDesktop> {
 
       body: Row(
         children: [
+          //Menu lateral
           MyDrawer(),
           Expanded(
             child: Padding(
@@ -133,7 +134,6 @@ class _DashboardDesktopState extends State<DashboardDesktop> {
                           ),
                         ),
                       ),
-                     
                     ],
                   ),
                 ],
