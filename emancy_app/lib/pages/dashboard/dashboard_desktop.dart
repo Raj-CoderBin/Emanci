@@ -20,13 +20,16 @@ class _DashboardDesktopState extends State<DashboardDesktop> {
         children: [
           //Menu lateral
           MyDrawer(),
+
           Expanded(
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Column(
                 children: [
+                  //Appbar
                   MyAppBarDasktop(),
                   SizedBox(height: 20),
+                  //Dashboard
                   Row(
                     children: [
                       SizedBox(width: 12),
@@ -42,6 +45,7 @@ class _DashboardDesktopState extends State<DashboardDesktop> {
                       ),
                     ],
                   ),
+                  //Visão geral
                   Row(
                     children: [
                       SizedBox(width: 20),
