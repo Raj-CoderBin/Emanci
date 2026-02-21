@@ -1,7 +1,8 @@
 
 # Emanci
 
-<img width="300" height="300" alt="logo_glifus(1)" src="https://github.com/user-attachments/assets/c545f9a1-667e-4a0f-bb4e-7831495f2da7"/>
+<img width="300" height="300" alt="logo emanci git hub" src="https://github.com/user-attachments/assets/0a34019e-c65b-41dd-bfc6-d9d13db1a173" />
+
 
 
   Ferramenta multiplataforma de educação financeira. O objetivo dessa aplicação é fornecer recursos para a adiministração tanto de finanças pessoais quanto possibilitar a gestão de metas ou dividas específicas.
